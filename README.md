@@ -66,19 +66,6 @@ yarn dev
 - [包大小可视化](https://github.com/btd/rollup-plugin-visualizer)
 - [分块打包](https://doc.houdunren.com/vue/4%20%E4%BC%98%E5%8C%96%E6%89%93%E5%8C%85.html#%E5%88%86%E5%9D%97%E6%89%93%E5%8C%85)
 
-## 项目效果
-
-![image-20220524094506539](https://heart-note-images.oss-cn-beijing.aliyuncs.com/image-20220524094506539.png)
-
-![image-20220209195927311](https://s2.loli.net/2022/02/09/wXOyeAxuojJp5iN.png)
-
-![image-20220524094439707](https://heart-note-images.oss-cn-beijing.aliyuncs.com/image-20220524094439707.png)
-
-![image-20220209195959178](https://s2.loli.net/2022/02/09/wrB5vsxkdRJUE91.png)
-
-![image-20220524094533447](https://heart-note-images.oss-cn-beijing.aliyuncs.com/image-20220524094533447.png)
-
-![image-20220209201108271](https://s2.loli.net/2022/02/09/9dONjSeoRUAlzZa.png)
 
 ## 在线预览
 
