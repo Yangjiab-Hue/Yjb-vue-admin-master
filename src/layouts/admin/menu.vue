@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import menuService from '@/composables/menu';
 import { watch } from 'vue';
+import imgUrl from '@/assets/favicon.ico'
 import { RouteLocationNormalizedLoaded, useRoute } from 'vue-router';
 
 const route = useRoute();
@@ -18,7 +19,7 @@ watch(
   <div class="menu-container" :class="{ close: menuService.close.value }">
     <div class="menu">
       <div class="icon">
-        <img src="/favicon.ico" alt="">
+        <img :src="imgUrl" alt="">
         <h1>后台管理</h1>
       </div>
       <div class="logo">

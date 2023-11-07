@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import v from '@/plugins/validate'
 import utils from "@/utils";
-
+import imgUrl from '@/assets/logo.png'
 const {yup, useForm, useFields} = v
 const schema = {
   account: yup.string().required().matches(/^\d{11}|.+@.+\..+$/, '手机号或邮箱不合法').label('账号'),
@@ -45,7 +45,7 @@ const onSubmit = handleSubmit((values) => {
         </div>
       </div>
       <div class="hidden md:block relative">
-        <img src="/images/login.jpg" alt="" class="h-[300px] h-full w-full object-cover absolute"/>
+        <img :src="imgUrl" alt="" class="h-[300px] h-full w-full object-cover absolute"/>
       </div>
     </div>
   </form>

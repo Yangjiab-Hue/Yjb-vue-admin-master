@@ -74,7 +74,7 @@ yarn dev
 
 ![image-20220524094439707](https://heart-note-images.oss-cn-beijing.aliyuncs.com/image-20220524094439707.png)
 
-![image-20220209195959178](https://s2.loli.net/2022/02/09/wrB5vsxkdRJUE91.png)
+![image-20220209195959178](https://s2.loli.net/2022/02/09/wrB5vsxkdRJUE91.jpg)
 
 ![image-20220524094533447](https://heart-note-images.oss-cn-beijing.aliyuncs.com/image-20220524094533447.png)
 

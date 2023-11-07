@@ -4,6 +4,7 @@ import utils from '@/utils'
 import menuService from '@/composables/menu'
 import Notification from '@/components/notification.vue'
 import Breadcrumb from '@/components/breadcrumb.vue'
+import imgUrl from '@/assets/images/1.jpg'
 const user = userStore()
 const fullScreen = () => {
   document.documentElement.requestFullscreen()
@@ -26,7 +27,7 @@ const fullScreen = () => {
       <i @click="fullScreen" class="fas fa-arrows-alt mr-2 cursor-pointer text-gray-600"></i>
       <div class="relative group">
         <div class="flex items-center cursor-pointer">
-          <img :src="user.info?.avatar" class="w-8 h-8 rounded-full object-cover" />
+          <img :src="imgUrl" class="w-8 h-8 rounded-full object-cover" />
           <span class="ml-1 text-sm">{{ user.info?.name }}</span>
         </div>
         <section class="group-hover:!block relative">

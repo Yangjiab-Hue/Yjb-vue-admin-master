@@ -1,5 +1,7 @@
 import { Random } from 'mockjs';
 import { MockMethod } from 'vite-plugin-mock';
+// import imgUrl from '@/assets/images/1.jpg'
+
 export default [
   {
     url: '/api/user/info',

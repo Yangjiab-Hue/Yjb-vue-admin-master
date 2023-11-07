@@ -10,6 +10,7 @@ export default ({ command, mode }: ConfigEnv) => {
   // 解析env文件
   const env = parseEnv(loadEnv(mode, root));
   return {
+    base: "./",
     plugins: setupPlugins(isBuild, env),
     resolve: {
       alias,
